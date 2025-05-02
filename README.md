@@ -6,6 +6,19 @@
 
 This guide walks through the deployment of an Amazon EKS (Elastic Kubernetes Service) cluster using **Terraform**, deployment of a **BlogApp** using **custom Helm charts**, and exposing it externally with the **Nginx Ingress Controller**.
 
+
+## Prerequisite:
+
+Install AWS CLI LATEST VERSION
+INSTALL TERRAFORM 
+INSTALL HELM
+INSTALL KUBECTL 
+CREATE A EC2 INSTANCE 
+CREATE A USER AND GENERATE A ACCESS KEY ADD THE PERMISSIONS TO THAT USER
+
+## Architectural Diagram:
+<img width="359" alt="image" src="https://github.com/user-attachments/assets/72548455-e266-4b39-bb4c-f7592ddb7892" />
+
 ---
 
 ## 🛠️ Step 1: Create a Terraform Configuration to Deploy EKS Cluster
